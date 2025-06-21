@@ -49,4 +49,4 @@ if __name__ == "__main__":
         out = block_average(img, block)
         cv2.imwrite(f'block_{block}x{block}.png', out)
 
-    print(" All processing complete! Check output images.")
+    print("processing completed!")
